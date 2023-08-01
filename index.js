@@ -13,7 +13,7 @@ const app=express();
 dotenv.config();
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://jobconnect1o.netlify.app','https://jobconnect2o.netlify.app/'],
+  origin: ['http://localhost:3000', 'https://jobconnect1o.netlify.app','https://jobconnect2o.netlify.app',"https://jobconnect3o.netlify.app"],
   credentials: true,
 }));
 
